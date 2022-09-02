@@ -297,7 +297,7 @@
             </div>
 
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-8">
                     <div class="revenue__chart-v2__area bg-style">
                         <div class="revenue__chart-v2__top">
@@ -450,7 +450,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 
