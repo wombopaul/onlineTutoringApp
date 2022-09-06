@@ -24,7 +24,7 @@
             </div>
             <div class="row">
 
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                {{-- <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="status__box status__box__v3 bg-style">
                         <div class="status__box__img">
                             <img src="{{ asset('admin') }}/images/admin-dashboard-icons/principal.png" alt="icon">
@@ -34,7 +34,7 @@
                             <h3>Total Admin</h3>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="status__box status__box__v3 bg-style">
                         <div class="status__box__img">
