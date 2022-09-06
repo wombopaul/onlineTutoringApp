@@ -66,13 +66,13 @@
                                     </div>
                                 </div>
                                 @endif
-                                @if(env('FACEBOOK_LOGIN_STATUS') == 1)
+                                {{-- @if(env('FACEBOOK_LOGIN_STATUS') == 1)
                                 <div class="row mb-2">
                                     <div class="col-md-12">
                                         <a href="{{ route('login.facebook') }}" class="theme-btn theme-button1 theme-button3 font-15 fw-bold w-100 facebook-login">Sign In With Facebook</a>
                                     </div>
                                 </div>
-                                @endif
+                                @endif --}}
                                 @if(env('TWITTER_LOGIN_STATUS') == 1)
                                 <div class="row mb-0">
                                     <div class="col-md-12">
