@@ -204,11 +204,13 @@ class CourseController extends Controller
     {
         $course = $this->model->getRecordByUuid($uuid);
 
+        $image = 'N/A';
+        $video = 'N/A';
         if ($request->image)
         {
             $this->deleteFile($course->image); // delete file from server
 
-            $image = $this->saveImage('course', $request->image, null, 450); // new file upload into server
+            //$image = $this->saveImage('course', $request->image, null, 450); // new file upload into server
 
         } else {
             $image = $course->image;
@@ -218,7 +220,7 @@ class CourseController extends Controller
         {
             $this->deleteVideoFile($course->video); // delete file from server
 
-            $video = $this->uploadFile('course', $request->video); // new file upload into server
+            //$video = $this->uploadFile('course', $request->video); // new file upload into server
 
         } else {
             $video = $course->video;
@@ -228,8 +230,8 @@ class CourseController extends Controller
             'category_id' => $request->category_id,
             'subcategory_id' => $request->subcategory_id,
             'price' => $request->price,
-            'course_language_id' => $request->course_language_id,
-            'difficulty_level_id' => $request->difficulty_level_id,
+            'course_language_id' => 0,
+            'difficulty_level_id' => 0,
             'learner_accessibility' => $request->learner_accessibility,
             'image' => $image,
             'video' => $video
@@ -237,10 +239,10 @@ class CourseController extends Controller
 
         $this->model->updateByUuid($data, $uuid); // update category
 
-        if ($request->tag)
-        {
-            $course->tags()->sync($request->tag);
-        }
+        // if ($request->tag)
+        // {
+        //     $course->tags()->sync($request->tag);
+        // }
 
         if ($course->status != 0)
         {

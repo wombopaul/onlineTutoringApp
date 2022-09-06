@@ -25,10 +25,6 @@ class CourseUpdateCategoryRequest extends FormRequest
     {
         return [
             'category_id' => ['required'],
-            'subcategory_id' => ['required'],
-            'price' => ['required', 'numeric'],
-            'course_language_id' => ['required'],
-            'difficulty_level_id' => ['required'],
             'image' => 'mimes:jpeg,png,jpg|file|max:2048',
         ];
     }

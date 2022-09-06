@@ -82,7 +82,8 @@
                                                         @endif
                                                     </div>
                                                 </div>
-                                                <div class="row mb-30">
+
+                                                {{-- <div class="row mb-30">
                                                     <div class="col-md-12">
                                                         <div class="label-text-title color-heading font-medium font-16 mb-3">Course description Key Points
                                                             <span class="cursor tooltip-show-btn share-referral-big-btn primary-btn get-referral-btn border-0 text-capitalize" data-toggle="popover"
@@ -116,7 +117,7 @@
 
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> --}}
 
                                                 <div class="row mb-30">
                                                     <div class="col-md-12">

@@ -37,7 +37,7 @@
 
                                     <div class="upload-course-item-block course-overview-step1 radius-8">
                                         <div class="upload-course-item-block-title mb-3">
-                                            <h6 class="font-20">Category & tags</h6>
+                                            <h6 class="font-20">Category</h6>
                                         </div>
 
                                         <div class="row">
@@ -60,7 +60,7 @@
 
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        {{-- <div class="row">
                                             <div class="col-md-12 mb-30">
                                                 <label class="label-text-title color-heading font-medium font-16 mb-3">Course sub category
                                                     <span class="cursor tooltip-show-btn share-referral-big-btn primary-btn get-referral-btn border-0 text-capitalize" data-toggle="popover"  data-bs-placement="bottom" data-bs-content="Meridian sun strikes upper urface of the impenetrable foliage of my trees">
@@ -79,8 +79,8 @@
                                                 @endif
 
                                             </div>
-                                        </div>
-                                        <div class="row">
+                                        </div> --}}
+                                        {{-- <div class="row">
                                             <div class="col-md-12 mb-30">
                                                 <label class="label-text-title color-heading font-medium font-16 mb-3">Tags
                                                     <span class="cursor tooltip-show-btn share-referral-big-btn primary-btn get-referral-btn border-0 text-capitalize" data-toggle="popover"  data-bs-placement="bottom" data-bs-content="Meridian sun strikes upper urface of the impenetrable foliage of my trees">
@@ -98,7 +98,7 @@
                                                 @endif
 
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <div class="upload-course-item-block course-overview-step1 radius-8">
                                         <div class="upload-course-item-block-title mb-3">
@@ -152,7 +152,7 @@
                                                 @endif
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        {{-- <div class="row">
                                             <div class="col-md-12 mb-30">
                                                 <label class="label-text-title color-heading font-medium font-16 mb-3">Difficulty Level
                                                     <span class="cursor tooltip-show-btn share-referral-big-btn primary-btn get-referral-btn border-0 text-capitalize" data-toggle="popover"  data-bs-placement="bottom" data-bs-content="Meridian sun strikes upper urface of the impenetrable foliage of my trees">
@@ -171,7 +171,7 @@
                                                 @endif
 
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <div class="row align-items-center">
                                             <div class="col-12">
                                                 <label class="label-text-title color-heading font-medium font-16 mb-3">Course thumbnail
